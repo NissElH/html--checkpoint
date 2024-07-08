@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nissrine El Halbi - Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Link to your CSS stylesheet for styling -->
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><img src="/logo.bmp" alt=""  width="20px" height="20px"></div>
+            <h1>Nissrine El Halbi</h1>
+            <p>Aspiring Student | Research Enthusiast</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#home" >Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home" class="container">
+            <h2>Welcome</h2>
+            <p>Welcome to my portfolio. Here you will find information about my work, experience, and how to contact me.</p>
+        </section>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nissrine El Halbi, an aspiring student with a passion for research.</p>
+            <div class="video-container">
+                <iframe width="350" height="150" src="https://www.youtube.com/embed/WR1ydijTx5E" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="work" class="container">
+            <h2>Work</h2>
+            <ul class="work-list">
+                <li>Project 1 - Web Development Presentation</li>
+                <li>Project 2 - Creating a Website (focus on Html)</li>
+                <li>Project 3 - Design of a website (focus on css)</li>
+            </ul>
+        </section>
+        <section id="resume" class="container">
+            <h2>Resume</h2>
+            <table class="experience-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Position</th>
+                        <th>Company</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024</td>
+                        <td>Software Developer</td>
+                        <td>GomyCode</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <div class="form-container">
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nissrine El Halbi </p>
+    </footer>
+</body>
+</html>
